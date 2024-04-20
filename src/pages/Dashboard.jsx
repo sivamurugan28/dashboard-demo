@@ -13,6 +13,7 @@ import searchIcon from "../assets/dashboard/searchIcon.png";
 import filterIcon from "../assets/dashboard/side-menu/filter-icon.svg";
 import TechnologyCard from '../shared/TechnologyCard';
 import { DataTable } from '../shared/DataTable';
+import profileImage from "../assets/dashboard/profile-1.jpg";
 
 
 export default function Dashboard() {
@@ -140,10 +141,89 @@ export default function Dashboard() {
                             </div>
                         </div>
                         <div className={dashboardStyle.userMatchingRight}>
-
+                            <div className={dashboardStyle.upComingDetail}>
+                                <div className={dashboardStyle.upComingHeaderDetail}>
+                                    <p>Upcomings</p>
+                                    <p>View All</p>
+                                </div>
+                                <div className={dashboardStyle.upComingDetailList}>
+                                    {
+                                        [...Array(3).keys()].map(() => {
+                                            return (
+                                                <div className={dashboardStyle.upComingDetailCard}>
+                                                    <div className={dashboardStyle.upComingDetailCardDetail}>
+                                                        <div className={dashboardStyle.upComingDetailCardDate}>
+                                                            <p>07</p>
+                                                            <p>Feb</p>
+                                                        </div>
+                                                        <div className={dashboardStyle.upComingDetailCardContent}>
+                                                            <p>Interview with Designer</p>
+                                                            <p>Created by Stella</p>
+                                                            <p>10 A.M to 11 A.M</p>
+                                                        </div>
+                                                    </div>
+                                                    <div className={dashboardStyle.upComingDetailBtn}>
+                                                        Detail
+                                                    </div>
+                                                </div>
+                                            )
+                                        })
+                                    }
+                                </div>
+                            </div>
+                            <div className={dashboardStyle.activityDetail}>
+                                <div className={dashboardStyle.upComingHeaderDetail}>
+                                    <p>Activity</p>
+                                    <p>View All</p>
+                                </div>
+                                <div className={dashboardStyle.upComingDetailList}>
+                                    {
+                                        [...Array(3).keys()].map(() => {
+                                            return (
+                                                <div className={dashboardStyle.upComingDetailCard}>
+                                                    <div className={dashboardStyle.upComingDetailCardDetail} style={{ alignItems: "center" }}>
+                                                        <img src={profileImage} className={dashboardStyle.profileImage} />
+                                                        <div className={dashboardStyle.upComingDetailCardContent}>
+                                                            <p>John Doe [Python Developer]</p>
+                                                            <p>Interview with Stella</p>
+                                                            <p>15 mins ago</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            )
+                                        })
+                                    }
+                                </div>
+                            </div>
+                            <div className={dashboardStyle.activityDetail}>
+                                <div className={dashboardStyle.upComingHeaderDetail}>
+                                    <p>Hiring Candidates</p>
+                                    <p>View All</p>
+                                </div>
+                                <div className={dashboardStyle.upComingDetailList}>
+                                    {
+                                        [...Array(3).keys()].map(() => {
+                                            return (
+                                                <div className={dashboardStyle.upComingDetailCard}>
+                                                    <div className={dashboardStyle.upComingDetailCardDetail} style={{ alignItems: "center" }}>
+                                                        <img src={profileImage} className={dashboardStyle.profileImage} />
+                                                        <div className={dashboardStyle.upComingDetailCardContent}>
+                                                            <p>John Doe</p>
+                                                            <p>Senior Python Develpper</p>
+                                                            <p>Hired by: Stella</p>
+                                                        </div>
+                                                    </div>
+                                                    <div className={dashboardStyle.upComingDetailBtn} style={{ background: "transparent", color: "blue", border: "1px solid blue" }}>
+                                                        Detail
+                                                    </div>
+                                                </div>
+                                            )
+                                        })
+                                    }
+                                </div>
+                            </div>
                         </div>
                     </div>
-
                 </div>
             </div>
         </div>

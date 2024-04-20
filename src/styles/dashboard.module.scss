@@ -9,6 +9,7 @@
     display: flex;
     gap: 34px;
     width: 100%;
+    padding-bottom: 100px;
 }
 
 .dashboardActions {
@@ -24,12 +25,14 @@
 .dashboardActionHeaderTitle {
     & p {
         margin: 0;
+
         &:first-child {
             font-family: Poppins;
             font-size: 36px;
             font-weight: 500;
             line-height: 54px;
             text-align: left;
+
             @media screen and (max-width: 1550px) {
                 font-size: 30px;
             }
@@ -38,9 +41,11 @@
         &:last-child {
             font-family: Poppins;
             font-size: 20px;
+
             @media screen and (max-width: 1550px) {
                 font-size: 16px;
             }
+
             font-weight: 400;
             line-height: 30px;
             text-align: left;
@@ -59,6 +64,7 @@
         line-height: 24px;
         text-align: left;
         text-transform: capitalize;
+
         @media screen and (max-width: 1550px) {
             font-size: 14px;
             height: 53px;
@@ -67,21 +73,21 @@
     }
 }
 
-.graphContainer{
-   display: flex;
-   gap: 34px;
-   margin-top: 66px;
+.graphContainer {
+    display: flex;
+    gap: 34px;
+    margin-top: 66px;
 }
 
-.applicationInfoContainer{
-  flex: 3;
-  box-shadow: 4px 4px 25px 0px rgba(0, 0, 0, 0.15);
-  border-radius: 10px;
-  padding: 10px 10px 0 10px;
-  max-height: 383px;
+.applicationInfoContainer {
+    flex: 3;
+    box-shadow: 4px 4px 25px 0px rgba(0, 0, 0, 0.15);
+    border-radius: 10px;
+    padding: 10px 10px 0 10px;
+    max-height: 383px;
 }
 
-.graphAssesment{
+.graphAssesment {
     background: blue;
     flex: 2;
     padding: 36px;
@@ -92,18 +98,20 @@
     justify-content: space-between;
 }
 
-.graphHeaderContainer{
+.graphHeaderContainer {
     display: flex;
     justify-content: space-between;
     align-items: center;
     border-bottom: 1px solid rgba(214, 214, 214, 1);
     padding: 15px 0px;
 }
-.graphTitleContainer{
+
+.graphTitleContainer {
     display: flex;
     align-items: center;
     gap: 20px;
-    p{
+
+    p {
         padding-left: 20px;
         font-family: Poppins;
         font-size: 22px;
@@ -111,6 +119,7 @@
         line-height: 33px;
         text-align: left;
         margin: 0;
+
         @media screen and (max-width: 1550px) {
             font-size: 18px;
         }
@@ -118,24 +127,28 @@
     }
 }
 
-.colorIndentifier{
+.colorIndentifier {
     display: flex;
     align-items: center;
     font-family: Poppins;
     font-size: 14px;
+
     @media screen and (max-width: 1550px) {
         font-size: 12px;
     }
+
     font-weight: 400;
     line-height: 21px;
     text-align: left;
-    span{
+
+    span {
         margin-right: 10px;
         border-radius: 3px;
         width: 20px;
         display: inline-block;
         height: 20px;
         background: rgba(39, 122, 204, 1);
+
         @media screen and (max-width: 1550px) {
             height: 15px;
             width: 15px;
@@ -144,19 +157,15 @@
 
 }
 
-.notePadIconCotainer{
+.notePadIconCotainer {
     padding: 20px 30px;
     background: white;
     width: fit-content;
     border-radius: 2px;
 }
 
-.notePadIcon{
-
-}
-
-.graphAssesmentNotePad{
-    p{
+.graphAssesmentNotePad {
+    p {
         font-family: Poppins;
         font-size: 56px;
         font-weight: 600;
@@ -168,31 +177,32 @@
     }
 }
 
-.ladyAvatarStyle{
+.ladyAvatarStyle {
     height: 358px;
     margin-top: -94px;
     margin-right: -67px;
 }
 
-.ladyAvatarSmallStyle{
+.ladyAvatarSmallStyle {
     height: 165px;
     margin-right: -56px;
 }
 
-.ladyAvatarContainer{
+.ladyAvatarContainer {
     display: flex;
 }
 
-.graphAssesmentCount{
+.graphAssesmentCount {
     display: flex;
     justify-content: space-between;
 }
 
-.graphAssesmentViewDetails{
+.graphAssesmentViewDetails {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    p{
+
+    p {
         font-family: Poppins;
         font-size: 22px;
         font-weight: 500;
@@ -200,12 +210,13 @@
         text-align: left;
         margin: 0;
         color: white;
+
         @media screen and (max-width: 1550px) {
             font-size: 18px;
         }
     }
 
-    div{
+    div {
         width: fit-content;
         padding: 10px;
         background: white;
@@ -218,48 +229,50 @@
     }
 }
 
-.userMatchingContainer{
+.userMatchingContainer {
     display: flex;
     gap: 34px;
     margin-top: 34px;
 }
 
-.userMatchingLeft{
+.userMatchingLeft {
     flex: 7.5;
     width: 950px;
 }
 
-.userMatchingRight{
+.userMatchingRight {
     flex: 2.5;
 }
 
-.meetingInformationDetail{
-  box-shadow: 4px 4px 25px 0px rgba(0, 0, 0, 0.15);
-  height: max-content;
-  padding-bottom: 1px;
-  border-radius: 10px;
+.meetingInformationDetail {
+    box-shadow: 4px 4px 25px 0px rgba(0, 0, 0, 0.15);
+    height: max-content;
+    padding-bottom: 1px;
+    border-radius: 10px;
 }
 
-.meetingInformationDetailHeader{
+.meetingInformationDetailHeader {
     display: flex;
     justify-content: space-between;
     align-items: center;
     border-bottom: 1px solid rgba(214, 214, 214, 1);
     padding: 40px 20px 10px 20px;
-    p{
+
+    p {
         margin: 0;
         font-family: Poppins;
         font-size: 22px;
         font-weight: 500;
         line-height: 33px;
         text-align: left;
+
         @media screen and (max-width: 1550px) {
             font-size: 18px;
         }
     }
 }
 
-.employeeProfileDetailContainer{
+.employeeProfileDetailContainer {
     margin: 50px 30px 25px 30px;
     overflow: auto;
     display: flex;
@@ -269,30 +282,30 @@
     padding-bottom: 30px;
 
     /* Track */
-&::-webkit-scrollbar {
-    width: 8px;
-    height: 15px;
-  }
-  
-  /* Handle */
-  &::-webkit-scrollbar-thumb {
-    background: rgba(10, 102, 194, 1);
-    border-radius: 10px;
-    height: 10px;
-  }
-  
-  /* Handle on hover */
-  &::-webkit-scrollbar-thumb:hover {
-    background: #60aaff;
-  }
-  
-  /* Track */
-  &::-webkit-scrollbar-track {
-    background: rgba(217, 217, 217, 1);
-    border-radius: 10px;
-    height: 10px;
-  }
-  
+    &::-webkit-scrollbar {
+        width: 8px;
+        height: 15px;
+    }
+
+    /* Handle */
+    &::-webkit-scrollbar-thumb {
+        background: rgba(10, 102, 194, 1);
+        border-radius: 10px;
+        height: 10px;
+    }
+
+    /* Handle on hover */
+    &::-webkit-scrollbar-thumb:hover {
+        background: #60aaff;
+    }
+
+    /* Track */
+    &::-webkit-scrollbar-track {
+        background: rgba(217, 217, 217, 1);
+        border-radius: 10px;
+        height: 10px;
+    }
+
 }
 
 .searchBar {
@@ -303,9 +316,11 @@
     max-width: 410px;
     width: 50%;
     min-width: 250px;
+
     @media screen and (max-width: 1550px) {
         height: 45px;
-      }
+    }
+
     img {
         height: 25px;
         width: 25px;
@@ -323,41 +338,47 @@
         font-weight: 400;
         line-height: 24px;
         height: 90%;
-      
+
     }
 }
 
-.postedJobsContainer{
-  box-shadow: 4px 4px 25px 0px rgba(0, 0, 0, 0.15);
-  margin-top: 34px;
-  padding: 20px;
-  border-radius: 10px;
+.postedJobsContainer {
+    box-shadow: 4px 4px 25px 0px rgba(0, 0, 0, 0.15);
+    margin-top: 34px;
+    padding: 20px;
+    border-radius: 10px;
 }
 
-.postedJobsHeader{
+.postedJobsHeader {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    & div:first-child{
+
+    & div:first-child {
         display: flex;
         align-items: center;
         gap: 20px;
-        p{
-            &:first-child{
+
+        p {
+            &:first-child {
                 font-family: Poppins;
                 font-size: 28px;
+
                 @media screen and (max-width: 1550px) {
                     font-size: 20px;
                 }
+
                 font-weight: 500;
                 line-height: 42px;
                 text-align: left;
             }
-            &:last-child{
+
+            &:last-child {
                 color: rgba(10, 102, 194, 1);
                 font-family: Poppins;
                 text-decoration: underline;
                 text-align: center;
+
                 @media screen and (max-width: 1550px) {
                     font-size: 16px;
                 }
@@ -366,56 +387,185 @@
     }
 }
 
-.searchBarContainer{
+.searchBarContainer {
     display: flex;
     align-items: center;
     gap: 30px;
 }
 
-.filterBtn{
+.filterBtn {
     display: flex;
     align-items: center;
     gap: 20px;
     box-shadow: 4px 4px 25px 0px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
     padding: 0 20px;
+
     @media screen and (max-width: 1550px) {
         height: 45px;
-        img{
+
+        img {
             height: 15px;
         }
-      }
-    & p{
+    }
+
+    & p {
         font-family: Poppins;
         font-size: 20px;
+
         @media screen and (max-width: 1550px) {
             font-size: 16px;
         }
+
         font-weight: 400;
         line-height: 30px;
         text-align: left;
     }
 }
 
-.jobStatusContainer{
+.jobStatusContainer {
     display: flex;
     gap: 50px;
-    border-bottom:1px solid silver;
-    p{
+    border-bottom: 1px solid silver;
+
+    p {
         margin: 0;
         font-family: Poppins;
         font-size: 20px;
         font-weight: 400;
         line-height: 30px;
         text-align: left;
+
         @media screen and (max-width: 1550px) {
             font-size: 16px;
         }
     }
 }
 
-.jobVancanyCountContainer{
+.jobVancanyCountContainer {
     margin-top: 30px;
     display: flex;
-    gap:15px
+    gap: 15px
+}
+
+.upComingHeaderDetail {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    p {
+        font-family: Poppins;
+        text-align: left;
+
+        &:first-child {
+            font-size: 22px;
+            font-weight: 500;
+            line-height: 33px;
+        }
+
+        &:last-child {
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 24px;
+            text-align: left;
+            color: rgba(10, 102, 194, 1);
+            text-decoration: underline;
+        }
+    }
+}
+
+.upComingDetailList{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.upComingDetailCard {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: Poppins;
+
+    p {
+        margin: 0;
+    }
+}
+
+.upComingDetailCardDate {
+    background: rgba(11, 116, 173, 0.15);
+    height: 54px;
+    width: 54px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    p:first-child {
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 21px;
+        text-align: center;
+        color: rgba(11, 116, 173, 1);
+    }
+    p:last-child {
+        font-size: 12px;
+        font-weight: 500;
+        line-height: 21px;
+        text-align: center;
+        color: rgba(11, 116, 173, 1);
+    }
+}
+
+.upComingDetailCardContent{
+  p{
+    &:first-child{
+        font-family: Poppins;
+        font-size: 12px;
+        font-weight: 500;
+        line-height: 18px;
+        text-align: left;
+    }
+    &:nth-child(2){
+        font-family: Poppins;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 18px;
+        text-align: left;        
+    }
+    &:nth-child(3){
+        font-family: Poppins;
+        font-size: 10px;
+        font-weight: 400;
+        line-height: 15px;
+        text-align: left;
+       
+    }
+  }
+}
+
+.upComingDetailCardDetail {
+    display: flex;
+    gap: 20px;
+}
+
+.upComingDetailBtn{
+    font-family: Poppins;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+    text-align: left;
+    background: rgba(10, 102, 194, 1);
+    padding: 10px 20px;
+    color: white;
+    border-radius: 5px;
+}
+.profileImage {
+    height: 62px;
+    width: 62px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 1px solid rgb(9, 88, 215);
+}
+
+.activityDetail{
+    margin-top: 60px;
 }
