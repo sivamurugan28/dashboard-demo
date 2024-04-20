@@ -1,0 +1,153 @@
+.employeeCardContainer {
+    min-width: 809px;
+    height: 324px;
+    border: 1px solid silver;
+    border-radius: 4px;
+    display: flex;
+    padding: 3px;
+}
+
+.employeeProfileContainer {
+    flex: 3;
+    display: flex;
+    flex-direction: column;
+    border-right: 1px solid silver;
+    padding-right: 3px;
+
+    .employeeProfile {
+        flex: 8;
+        gap: 5px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        border-bottom: 1px solid silver;
+    }
+
+    .employeeMeetingDateAndTiming {
+        flex: 2;
+        display: flex;
+        padding-top: 3px;
+
+        div {
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            justify-content: center;
+            flex: 1;
+
+            &:first-child {
+                border-right: 1px solid silver;
+            }
+        }
+    }
+
+}
+
+.employeeInterviewStatus {
+    flex: 7;
+}
+
+.profileImage {
+    height: 103px;
+    width: 103px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 1px solid rgb(9, 88, 215);
+}
+
+.profileName {
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    margin: 0;
+    width: max-content;
+    margin-top: 10px;
+}
+
+.profilePosition {
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    text-align: center;
+    margin: 0;
+    width: max-content;
+}
+
+.employeeMeetingDateAndTiming {
+    p {
+        font-family: Poppins;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 21px;
+        text-align: center;
+        color: rgba(10, 102, 194, 1);
+        width: max-content;
+        margin: 0;
+
+    }
+}
+
+.employeeInterviewStatus {
+    display: flex;
+    flex-direction: column;
+    padding-left: 3px;
+}
+
+.employeeInterviewStatusGrid {
+    flex: 7;
+    display: flex;
+    padding-bottom: 3px;
+    & > div{
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        & div{
+            flex: 1;
+            display: flex;
+            align-items: flex-end;
+            justify-content: center;
+            font-family: Poppins;
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 21px;
+            text-align: left;
+
+            &:not(:last-child){
+                border-bottom: 1px solid silver;
+            }
+        }
+    }
+    border-bottom: 1px solid silver;
+}
+
+.employeeInterviewStatusActions {
+    flex: 3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    & div{
+        padding: 10px;
+        font-family: Poppins;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 21px;
+        border: 1px solid blue;
+        width: 150px;
+        text-align: center;
+        color: rgba(10, 102, 194, 1);
+        border-radius: 3px;
+        &:last-child{
+            background: rgba(10, 102, 194, 1);
+            color: white !important;
+        }
+    }
+}
+
+.employeeInterviewStatusLeft{
+    border-right: 1px solid silver;
+}
